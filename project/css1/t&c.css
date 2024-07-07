@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 80px;
+    margin-bottom: 10px;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15)
+}
+.logo-area img{
+    margin-left: 80px;
+    height: 70px;
+    margin-top: 5px;
+
+}
+.header h3{
+    margin-top: 13px;
+    color: rgb(255, 174, 0);
+}
+.header a{
+    margin-top: 800px;
+    text-decoration: none !important;
+    color: black;
+}
+.header{
+    margin-top: 20px;
+}
+
+
+
+.term  h5{
+    margin-bottom: 10px;
+}
+.term p{
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+                        /*------footer------*/
+.footer{
+    height: 260px;
+    background-color: #213555;
+    margin-bottom: 10px;
+}
+.footer img{
+    margin-top: 40px;
+}
+.footer .c-logo h2{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.text_footer p{
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.apps i{
+    margin-top: 30px;
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.apps h5{
+    margin-top: 30px;
+    color: white;
+}
+.apps img{
+    margin-top: 10px;
+}
+.Copyright p{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+
+@media(max-width:600px){
+    .header{
+        height: auto;
+    }
+    .header h3{
+        margin-top: -50px;
+    }
+    .logo img{
+        float: right;
+    }
+    #Term h5{
+        margin-left: 10px;
+    }
+    #Term p{
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .footer{
+        height: auto;
+    }
+    .Copyright{
+        height: auto;
+    }
+    .Copyright p{
+        margin-left: 15px;
+    }
+    .text_footer{
+        margin-top: 10px ;
+    }
+}

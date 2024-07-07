@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ .header {
+    background-color: rgb(10, 89, 235);  /* Change the background color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    padding: 15px 20px;
+  }
+  
+  .header img {
+    width: 50px; /* Adjust the logo image width as needed */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+     /* Adjust the font size as needed */
+     float: right;
+     margin-right: 200px;
+  }
+
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #007bff; /* Change the background color as needed */
+  }
+  
+  .navbar-toggler {
+    border-color: #ffffff; /* Change the border color of the toggle button as needed */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Adjust the spacing between menu items as needed */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Change the text color as needed */
+    margin-left: 40px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e7500a; /* Change the hover color as needed */
+  }
+  
+  
+.icon  ul a i{
+    margin-right: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+                        /*------1st image------*/
+.first{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.first img{
+    float: right;
+    position: relative;
+    margin-top: 30px;
+}
+.first h1{
+    font-size: 60px;
+    margin-top: 150px;
+}
+.first p{
+    text-align: justify;
+    line-height: 15px;
+}
+
+                        /*------about------*/
+
+.about{
+    height: 500px;
+    align-items: center;
+}
+
+.about img{
+    position: relative;
+    margin-top: 50px;
+    float: left;
+}
+.about h1{
+    color: rgb(255, 187, 0);
+    margin-top: 150px;
+    position: relative;
+    font-size: 55px;
+}
+.about h3{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.about p{
+    margin-top: 10px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+                        /*------Text_menu------*/
+
+#Menu{
+    margin-top: 50px;
+}                        
+
+                        /*------menu------*/
+.menu{
+    height: 300px;
+    margin-top: 20px;
+}
+.menu h6{
+    margin-bottom: 1px;
+    background-color: yellow;
+}
+.menu a{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+                        /*------top 4restaurant------*/
+
+.t-restaurant{
+    margin-top: 50px;
+}
+                        /*------restaurant------*/
+
+.restaurant{
+    height: 450px;
+    margin-bottom: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.restaurant .rest1 {
+    height: 400px;  
+}
+#order{
+    float: right;
+}
+.restaurant .rest2 {
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.restaurant .rest3 {
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.restaurant .rest4 {
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.restaurant a{
+    text-decoration: none!important;
+}
+
+                        /*------restaurant imagr hover------*/
+
+#restaurant1 :hover{
+    transform: translate(0, -10px);
+    transition: 1.3s;
+}
+#restaurant2 :hover{
+    transform: translate(0, -10px); 
+    transition: 1.3s;
+}
+#restaurant3  :hover{
+    transform: translate(0, -10px);
+    transition: 1.3s;                                
+}
+#restaurant4 :hover{
+    transform: translate(0, -10px);
+    transition: 1.3s;
+    
+}
+
+                        /*------footer------*/
+
+
+.footer{
+    height: 260px;
+    background-color: #213555;
+    margin-bottom: 10px;
+}
+.footer img{
+    margin-top: 40px;
+}
+.footer .c-logo h2{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.text_footer p{
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.apps i{
+    margin-top: 30px;
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.apps h5{
+    margin-top: 30px;
+    color: white;
+}
+.apps img{
+    margin-top: 10px;
+}
+.Copyright p{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+
+
+/* ============================================responsive------------------------------------------------------------------------*/
+
+@media(max-width:600px){
+
+    .navbar-nav {
+        background-color: #394755; /* Change the background color of the mobile menu as needed */
+        padding: 10px;
+        border-radius: 5px; /* Add some border-radius for a rounded appearance */
+      }
+    
+      .navbar-toggler-icon {
+        background-color: #ffffff !important; /* Change the toggle button color as needed */
+      }
+    .first img{
+        float: left;
+    }
+    .first h1{
+        margin-top: 550px;
+        
+    }
+    #About{
+        text-align: center;
+        display: flex;
+    }
+    #Menu{
+        margin-top: 300px;
+    }
+    .menu{
+        height: auto;
+    }
+    .menu img{
+        margin-bottom: 20px;
+    }
+    .restaurant{
+        height: auto;
+    }
+    .restaurant a{
+        margin-bottom: 20px;
+    }
+    .footer{
+        height: auto;
+    }
+    .Copyright{
+        height: auto;
+    }
+    .Copyright p{
+        margin-left: -50px;
+    }
+    .text_footer{
+        margin-top: 10px;
+    }
+}

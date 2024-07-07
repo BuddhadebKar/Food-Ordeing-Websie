@@ -1,0 +1,425 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(242, 242, 242) !important;
+
+}
+.header{
+    height: 80px;
+    background-color: rgb(10, 89, 235);
+    margin-bottom: 10px;
+}
+.header img{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 70px;
+    margin-top: 5px;
+
+}
+.header nav ul li a {
+    line-height: 15px;
+    height: 28px;
+    margin-left: 24px !important;
+    margin-right: 24px;
+    color: white !important;
+}
+#nav-icon{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+/*------------------------manu-------------------*/
+#Menu{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(255, 187, 0);
+    border-radius: 6px 6px 6px 6px;
+    margin-bottom: 10px;
+}
+
+/*------------------------dis_manu-------------------*/
+.dis_menu{
+    height: 75px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.dis_menu a{
+    margin-top: 20px;
+    line-height: 8px;
+    float: left;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none !important;
+}
+
+
+/*------------------------Pizza-------------------*/
+#Pizza {
+    margin-top: 30px;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 16px 16px 16px 16px;
+}
+#Pizza p{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.more a{
+    margin-top: -25px;
+    color: yellow;
+    background-color: red;
+    text-decoration: none !important;
+}
+
+/*------------------------Hamburger-------------------*/
+#Hamburger {
+    margin-top: 30px;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 16px 16px 16px 16px;
+}
+#Hamburger p{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+/*------------------------Biriyani-------------------*/
+#Biryani {
+    margin-top: 30px;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 16px 16px 16px 16px;
+}
+#Biryani p{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+/*------------------------c1r1-------------------*/
+
+.c1r1{
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/row1-1st-img.jpeg);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+.c1r1 i {
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;
+}
+.c1r1 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white;
+}
+.c1r1 h6{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 17px;
+}
+.c1r1 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c1r1 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c1r1 a{
+    margin-left: 4px;
+}
+
+                        /*-----c1r2-----*/
+
+.c1r2{
+    height: 300px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/4d42a594-14be-48d2-ac4a-adcd0034a08f_FierySausagePaprikadef.jpeg);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.c1r2 i {
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;
+}
+.c1r2 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white;
+}
+.c1r2 h6{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.c1r2 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c1r2 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c1r2 a{
+    margin-left: 4px;
+}
+
+                        /*-----c1r3-----*/
+
+.c1r3{
+    height: 300px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/c1r3.jpg);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.c1r3 i {
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;
+}
+.c1r3 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white;
+}
+.c1r3 h6{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.c1r3 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c1r3 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c1r3 a{
+    margin-left: 4px;
+}
+
+                        /*-----c2r1-----*/
+
+.c2r1{
+    height: 300px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/c1r4.jpg);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+.c2r1 i {
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;
+}
+.c2r1 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white;
+}
+.c2r1 h6{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.c2r1 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c2r1 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c2r1 a{
+    margin-left: 4px;
+}
+
+                                               /*-----c2r2-----*/
+
+.c2r2{              
+    height: 300px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/c2r1.jpg);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;  
+    margin-bottom: 20px;
+}
+.c2r2 i {       
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;   
+}
+.c2r2 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white; 
+}
+.c2r2 h6{      
+    margin-left: 4px;
+    margin-top: 17px;   
+}
+.c2r2 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c2r2 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c2r2 a{
+    margin-left: 4px;
+}
+
+                        /*-----c2r3-----*/
+
+.c2r3{              
+    height: 300px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(../image/c2r2.png);
+    background-size: 100% 140px;
+    background-repeat: no-repeat;   
+    margin-bottom: 50px;
+}
+.c2r3 i {       
+    margin-left: 4px;
+    margin-top: 110px;
+    float: left;   
+}
+.c2r3 h5{
+    margin-top: 105px;
+    margin-left: 13px;
+    color: white; 
+}
+.c2r3 h6{      
+    margin-left: 4px;
+    margin-top: 17px;   
+}
+.c2r3 p{
+    text-align: justify;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+    color: rgb(131, 125, 125);
+}
+.c2r3 hr{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -10px;
+}
+.c2r3 a{
+    margin-left: 4px;
+}
+
+
+                        /*------seemolre------*/
+
+.see_more a{
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+                        /*------footer------*/
+.footer{
+    height: 260px;
+    background-color: #213555;
+    margin-bottom: 10px;
+}
+.footer img{
+    margin-top: 40px;
+}
+.footer .c-logo h2{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.text_footer p{
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.apps i{
+    margin-top: 30px;
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.apps h5{
+    margin-top: 30px;
+    color: white;
+}
+.apps img{
+    margin-top: 10px;
+}
+.Copyright p{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+@media(max-width:600px){
+    
+    .dis_menu{
+        height: 130px;
+    }
+    .see_more {
+        margin-top: 20px;
+    }
+    .footer{
+        height: auto;
+    }
+    .Copyright{
+        height: auto;
+    }
+    .Copyright p{
+        margin-left: 15px;
+    }
+    .text_footer{
+        margin-top: 10px ;
+    }
+}

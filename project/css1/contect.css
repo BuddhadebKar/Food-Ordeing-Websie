@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.loc{
+    background-color: white;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.loc i{
+    font-size: 50px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.loc h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+.loc a p{
+    text-align: center;
+    margin-top: 15px;
+    line-height: 18px;
+    font-size: 13px;
+    color: black;
+    text-decoration: none !important;
+}
+
+
+.phon{
+    background-color: white;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.phon i{
+    font-size: 50px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.phon h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.phon p{
+    line-height: 15px;
+}
+.phon p a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none !important;
+}
+
+
+.tele{
+    background-color: white;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.tele i{
+    font-size: 50px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.tele h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tele p {
+    text-align: center;
+}
+.tele p a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none !important;
+}
+
+
+.mail{
+    background-color: white;
+    height: 200px;
+    margin-right: 55px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.mail i{
+    font-size: 50px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.mail h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mail p {
+    text-align: center;
+}
+.mail p a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none !important;
+}
+
+.footer{
+    background-color: #da0c3f;
+    height: 451px;
+    margin-top: -100px;
+}
+.footer_form{
+    margin-top: 150px;
+}
+.footer_form label{
+    color: white;
+}
+.footer_form input{
+    width: 100%;
+    
+}
+#submit{
+    color: black;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px;
+}
+.footer_text{
+    margin-top: 150px;
+    color: white;
+}
+.footer_text h6{
+    font-size: 35px;
+}
+.footer_text h5{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.footer_text p{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 12px;
+}
+.footer_text i{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+@media(max-width:600px){
+    .loc{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .loc i{
+        margin-left: 176px;
+    }
+    .phon{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .phon i{
+        margin-left: 176px;
+    }
+    .tele{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .tele i{
+        margin-left: 176px;
+    }
+    .mail{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mail i{
+        margin-left: 173px;
+    }
+    .footer{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .footer_text{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}

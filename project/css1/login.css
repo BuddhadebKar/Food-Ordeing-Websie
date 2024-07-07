@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E9B824 !important;
+    background-size: auto;
+}
+.photo{
+    height: 590px !important;
+
+}
+.photo{
+    background-image: url(../image/buger.jpg);
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+.image{
+    background-color: white;
+    height: 420px;
+    margin-top: -530px;
+}
+.image h4{
+    margin-top: 60px;
+    font-size: x-large;
+}
+
+.image form input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#Submit{
+    background-color: rgb(77, 77, 197);
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+}
+.image h5{
+    margin-top: 15px;
+    text-align: center;
+    font-size: small;
+}
+@media(max-width:600px){
+    .photo{
+        height: auto;
+    }
+    .image{
+        height: 420px;
+    }
+}
